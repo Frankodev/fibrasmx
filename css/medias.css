@@ -10,6 +10,14 @@
   html {
     font-size: 50%;
   }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .nav__link {
+    padding: 0.8rem 1.2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {

@@ -32,8 +32,65 @@ html {
 
 a {
   text-decoration: none;
+  color: var(--primary);
 }
 
+/* globales */
+.title {
+  font-family: Baskerville, sans-serif;
+  color: white;
+  font-size: 12rem;
+  font-weight: 400;
+
+  transition: all 0.4s ease;
+}
+
+.title:hover {
+  transform: scale(1.1);
+}
+
+.sub-title {
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 3.8rem;
+  color: var(--blue);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* nav */
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.logo {
+  font-size: 2.8rem;
+  color: var(--primary);
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav__link {
+  list-style: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.8rem;
+}
+
+/* hero */
 .hero {
   position: relative;
   width: 100vw;
@@ -59,32 +116,4 @@ a {
   bottom: 50%;
   right: 50%;
   z-index: 2;
-}
-
-.title {
-  font-family: Baskerville, sans-serif;
-  color: white;
-  font-size: 12rem;
-  font-weight: 400;
-
-  transition: all 0.4s ease;
-}
-
-.title:hover {
-  transform: scale(1.1);
-}
-
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sub-title {
-  width: 100%;
-  padding: 2rem 0;
-  text-align: center;
-  font-size: 4rem;
-  color: var(--blue);
 }
