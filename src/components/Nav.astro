@@ -1,0 +1,21 @@
+---
+import "bootstrap/dist/css/bootstrap.css";
+
+import { Nav } from "astro-bootstrap";
+import type { NavItemType } from "astro-bootstrap";
+const navs: NavItemType[] = [
+  { href: "/", text: "Inicio", linkClass: "text-dark" },
+  { href: "/las-fibras", text: "Las Fibras", linkClass: "text-dark" },
+  { href: "/comunidad", text: "Comunidad", linkClass: "text-dark" },
+  { href: "/blog", text: "Blog", linkClass: "text-dark" },
+];
+export interface NavType {
+  href: string;
+  text: string;
+  disabled?: boolean;
+}
+---
+
+<Nav>
+  {navs.map((nav) => <Nav.Item {...nav} />)}
+</Nav>
