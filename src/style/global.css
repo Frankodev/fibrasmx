@@ -1,0 +1,10 @@
+/** @format */
+
+h1 {
+  color: #212529;
+}
+
+.nav {
+  justify-content: flex-end;
+  padding: 1rem;
+}
