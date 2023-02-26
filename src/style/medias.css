@@ -1,0 +1,9 @@
+/** @format */
+
+/* breakpoint 480px - celular */
+@media (max-width: 480px) {
+  .nav__links {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

@@ -1,9 +1,12 @@
 ---
 import "../style/global.css";
+import "../style/medias.css";
 
 import Nav from "../components/Nav.astro";
+// import Nav from "../components/Nav.svelte";
 
 const { pageTitle } = Astro.props;
+const { url } = Astro.props;
 ---
 
 <html lang="en">
@@ -16,7 +19,8 @@ const { pageTitle } = Astro.props;
   </head>
   <body>
     <header>
-      <Nav client:load />
+      <Nav url={url} />
+      <!-- <Nav client:only="svelte" /> -->
     </header>
     <main class="container">
       <h1 class="fw-bold">{pageTitle}</h1>

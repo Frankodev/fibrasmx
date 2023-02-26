@@ -1,21 +1,36 @@
 ---
-import "bootstrap/dist/css/bootstrap.css";
+const { url } = Astro.props;
 
-import { Nav } from "astro-bootstrap";
-import type { NavItemType } from "astro-bootstrap";
-const navs: NavItemType[] = [
-  { href: "/", text: "Inicio", linkClass: "text-dark" },
-  { href: "/las-fibras", text: "Las Fibras", linkClass: "text-dark" },
-  { href: "/comunidad", text: "Comunidad", linkClass: "text-dark" },
-  { href: "/blog", text: "Blog", linkClass: "text-dark" },
+const listLinks = [
+  { linkName: "Inicio", path: "/" },
+  { linkName: "Las Fibras", path: "/las-fibras" },
+  { linkName: "Comunidad", path: "/comunidad" },
+  { linkName: "Blog", path: "/blog" },
 ];
-export interface NavType {
-  href: string;
-  text: string;
-  disabled?: boolean;
-}
 ---
 
-<Nav>
-  {navs.map((nav) => <Nav.Item {...nav} />)}
-</Nav>
+<script>
+  let url = window.location.pathname;
+  // console.log("url windows:", url);
+</script>
+
+<nav class="nav">
+  <div class="logo">
+    <a href="/">Fibras MX</a>
+  </div>
+
+  <ul class="nav__links">
+    {
+      listLinks.map((link) => (
+        <li class="nav__link">
+          <a
+            class={link.path === url ? "link active" : "link"}
+            href={link.path}
+          >
+            {link.linkName}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

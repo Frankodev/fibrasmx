@@ -2,8 +2,9 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "Blog - Noticias De Las Fibras Mexicanas";
+const url = Astro.url.pathname;
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} url={url}>
   <p>Blog de la comunidad Fibras MX</p>
 </BaseLayout>
