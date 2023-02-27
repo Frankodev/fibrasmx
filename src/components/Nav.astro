@@ -1,5 +1,5 @@
 ---
-const { url } = Astro.props;
+import NavLink from "./NavLink.astro";
 
 const listLinks = [
   { linkName: "Inicio", path: "/" },
@@ -18,12 +18,7 @@ const listLinks = [
     {
       listLinks.map((link) => (
         <li class="nav__link">
-          <a
-            class={link.path === url ? "link active" : "link"}
-            href={link.path}
-          >
-            {link.linkName}
-          </a>
+          <NavLink href={link.path}>{link.linkName} </NavLink>
         </li>
       ))
     }
