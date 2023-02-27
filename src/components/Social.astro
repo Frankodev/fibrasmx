@@ -1,0 +1,11 @@
+---
+const { platform, username } = Astro.props;
+---
+
+<a
+  class="link__social"
+  href={`https://www.${platform}.com/${username}`}
+  target="_blank"
+>
+  {platform}
+</a>

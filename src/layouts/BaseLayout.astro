@@ -3,7 +3,7 @@ import "../style/global.css";
 import "../style/medias.css";
 
 import Nav from "../components/Nav.astro";
-// import Nav from "../components/Nav.svelte";
+import Footer from "../components/Footer.astro";
 
 const { pageTitle } = Astro.props;
 const { url } = Astro.props;
@@ -20,11 +20,11 @@ const { url } = Astro.props;
   <body>
     <header>
       <Nav url={url} />
-      <!-- <Nav client:only="svelte" /> -->
     </header>
-    <main class="container">
-      <h1 class="fw-bold">{pageTitle}</h1>
+    <main class="container__layout">
+      <h1 class="title">{pageTitle}</h1>
       <slot />
     </main>
+    <Footer />
   </body>
 </html>

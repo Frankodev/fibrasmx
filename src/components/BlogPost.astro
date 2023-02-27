@@ -1,0 +1,10 @@
+---
+const { title, url, pubDate = "New Post" } = Astro.props;
+---
+
+<li class="title__blog">
+  <a class="link__blog" href={`${url}`}>
+    {title || "New Post"} -
+    <span class="today__blog">{pubDate.slice(0, 10)}</span>
+  </a>
+</li>

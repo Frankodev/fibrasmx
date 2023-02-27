@@ -1,10 +1,26 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogPost from "../components/BlogPost.astro";
 
-const pageTitle = "Blog - Noticias De Las Fibras Mexicanas";
+const allPosts = await Astro.glob("../pages/posts/*.md");
+
+const pageTitle = "Blog - Noticias De Las Fibras";
 const url = Astro.url.pathname;
 ---
 
 <BaseLayout pageTitle={pageTitle} url={url}>
   <p>Blog de la comunidad Fibras MX</p>
+  <hr />
+
+  <ul class="list__blog">
+    {
+      allPosts.map((post) => (
+        <BlogPost
+          url={post.url}
+          title={post.frontmatter.title}
+          pubDate={post.frontmatter.pubDate}
+        />
+      ))
+    }
+  </ul>
 </BaseLayout>

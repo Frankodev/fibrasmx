@@ -105,6 +105,7 @@ h1 {
 }
 
 .active {
+  font-weight: 500;
   color: var(--color-enlaces);
   text-decoration: underline var(--color-enlaces);
 }
@@ -113,6 +114,7 @@ h1 {
 .container__btn-return {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 1rem;
 }
 
 .btn__return {
@@ -145,29 +147,6 @@ h1 {
   font-weight: 300;
   font-style: italic;
   color: #79828d;
-}
-
-/* Tags */
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.tag {
-  list-style: none;
-  margin: 0.25em;
-  border: dotted 1px #a1a1a1;
-  border-radius: 0.5em;
-  padding: 0.5em 1em;
-  font-size: 1.15em;
-  background-color: #f8fcfd;
-}
-
-.tag__link {
-  text-decoration: none;
-  font-weight: 400;
-  color: var(--color-enlaces);
 }
 
 /* Footer */
