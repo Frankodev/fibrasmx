@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/Post.astro"
 title: Tips y métodos para mejorar las finanzas personales
-image: "../../images/Ilustracion-Daniel-Ibarra.jpeg"
+image: "https://www.elfinanciero.com.mx/resizer/4GSzarAnHbybVYip_L_T8qtV_88=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/AJCT6Z3MQBGQJFYC4QX3P4WFUE.jpeg"
 publishedAt: 2023-03-02
 category: ["Tips", "Finanzas Personales"]
 ---
@@ -55,6 +55,8 @@ Algunos consejos que te damos para que ahorrar te sea mucho más fácil son:
   - Busca oportunidades para reducir gastos.
 
   - No gastes más de lo necesario.
+
+![image](../../images/Ilustracion-Daniel-Ibarra.jpeg)
 
 ### Fondo de Emergencia
 
