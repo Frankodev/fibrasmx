@@ -1,7 +1,7 @@
 ---
 import Layout from "../../../layouts/Page.astro";
 import Container from "../../../components/Container.astro";
-import BlogPostsList from "../../../components/BlogPostsList.astro";
+import BlogPostsListCategory from "../../../components/BlogPostsListCategory.astro";
 import { generateCategoryData } from "../../../utils/helpers.js";
 
 export async function getStaticPaths() {
@@ -47,7 +47,7 @@ const { category, posts } = Astro.props;
     <div class="home-hero-text__container">
       <h1>Posts de {category}</h1>
     </div>
-    <BlogPostsList posts={posts} />
+    <BlogPostsListCategory posts={posts} />
   </Container>
 </Layout>
 
