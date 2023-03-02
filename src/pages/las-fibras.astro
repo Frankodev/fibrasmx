@@ -1,12 +1,21 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import Layout from "../layouts/Page.astro";
+import Container from "../components/Container.astro";
 
-const pageTitle = "Las Fibras En México";
+const seo = {
+  title: "Fibras MX | Las Fibras",
+  description: "Las Fibras que cotizan en la BMV ...",
+};
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <p>
-    Ponte al día con las noticias e información mas relevante de todas las
-    fibras que cotizán en la bolsa méxicana de valores
-  </p>
-</BaseLayout>
+<Layout seo={seo}>
+  <Container>
+    <div class="home-hero-text__container">
+      <h1>Las Fibras</h1>
+    </div>
+    <p>
+      Ponte al día con las noticias e información mas relevante de todas las
+      fibras que cotizán en la bolsa méxicana de valores
+    </p>
+  </Container>
+</Layout>

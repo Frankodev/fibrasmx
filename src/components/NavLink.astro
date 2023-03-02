@@ -1,5 +1,5 @@
 ---
-import type { HTMLAttributes } from "astro/types";
+import type { HTMLAttributes } from "astro/types.d";
 type Props = HTMLAttributes<"a">;
 const { href, class: className, ...props } = Astro.props;
 const { pathname } = Astro.url;
@@ -12,23 +12,26 @@ const isActive = href === pathname || href === pathname.replace(/\/$/, "");
 
 <style>
   /* NavLink */
+
+  /* a {
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+  } */
+
   a {
     display: inline-block;
-    text-decoration: underline transparent;
     font-size: 1.2rem;
     color: #999999;
-    font-weight: 300;
   }
 
   a:hover,
   a:focus {
-    text-decoration: underline var(--color-enlaces);
-    color: var(--color-enlaces);
+    text-decoration: underline var(--theme-primary);
+    color: var(--theme-primary);
   }
 
   a.active {
-    color: var(--color-enlaces);
-    text-decoration: underline var(--color-enlaces);
-    font-weight: bolder;
+    color: var(--theme-primary);
+    text-decoration: underline var(--theme-primary);
   }
 </style>

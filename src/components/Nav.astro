@@ -2,25 +2,40 @@
 import NavLink from "./NavLink.astro";
 
 const listLinks = [
-  { linkName: "Inicio", path: "/" },
-  { linkName: "Las Fibras", path: "/las-fibras" },
-  { linkName: "Comunidad", path: "/comunidad" },
-  { linkName: "Blog", path: "/blog" },
+  { text: "Inicio", path: "/" },
+  { text: "Las Fibras", path: "/las-fibras" },
+  { text: "Comunidad", path: "/comunidad" },
+  { text: "Blog", path: "/blog" },
 ];
 ---
 
-<nav class="nav">
-  <div class="logo">
-    <a href="/">Fibras MX</a>
-  </div>
+<ul class="menu">
+  {
+    listLinks.map((link) => (
+      <li>
+        <NavLink class="menu__link" href={link.path}>
+          {link.text}
+        </NavLink>
+      </li>
+    ))
+  }
+</ul>
 
-  <ul class="nav__links">
-    {
-      listLinks.map((link) => (
-        <li class="nav__link">
-          <NavLink href={link.path}>{link.linkName} </NavLink>
-        </li>
-      ))
-    }
-  </ul>
-</nav>
+<style>
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu__link {
+    text-decoration: underline transparent;
+  }
+
+  .menu__link:hover {
+    text-decoration: underline;
+  }
+</style>

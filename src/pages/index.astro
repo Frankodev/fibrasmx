@@ -1,9 +1,19 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import Layout from "../layouts/Page.astro";
+import Container from "../components/Container.astro";
 
-const pageTitle = "Bienvenido a Fibras MX";
+const seo = {
+  title: "Fibras MX | De noob a Inversionista patrimonial",
+  description:
+    "La comunidad Fibras MX tiene 2 años de haber nacido como una iniciativa ...",
+};
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <p>Todos somos la comunidad de Fibras MX</p>
-</BaseLayout>
+<Layout seo={seo}>
+  <Container>
+    <div class="home-hero-text__container">
+      <h1 class="title fade-in">Bienvenido a Fibras MX</h1>
+    </div>
+    <p>Todos somos la comunidad de Fibras MX</p>
+  </Container>
+</Layout>
