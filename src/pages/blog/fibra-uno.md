@@ -4,7 +4,7 @@ title: Fibra UNO
 image: https://notipress.mx/img/content/1991
 alt: "imagen de fibra uno"
 publishedAt: "2023-03-01"
-category: ["Fibras", "Fibra UNO", Reseña]
+category: ["Fibras", "Fibra UNO", Notas]
 ---
 
 <!-- @format -->

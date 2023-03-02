@@ -2,6 +2,8 @@
 import Container from "./Container.astro";
 import Logo from "./Logo.astro";
 import Nav from "./Nav.astro";
+import DropDown from "./DropDown.astro";
+import ToggleBtn from "./ToggleBtn.astro";
 ---
 
 <script>
@@ -10,8 +12,8 @@ import Nav from "./Nav.astro";
 
 <header>
   <Container>
-    <nav>
-      <a class="header__logo" href="/" title="Navigate Home">
+    <nav class="navbar">
+      <a href="/" title="Navigate Home">
         <Logo />
       </a>
       <!-- Nav -->
@@ -19,7 +21,15 @@ import Nav from "./Nav.astro";
 
       <div class="theme-toggle__container">
         <!-- This component uses client script -->
-        <theme-toggle-button />
+        <theme-toggle-button></theme-toggle-button>
+      </div>
+    </nav>
+    <nav class="dropdown">
+      <DropDown />
+      <div class="theme-toggle__container">
+        <!-- This component uses client script -->
+        <theme-toggle-button></theme-toggle-button>
+        <ToggleBtn />
       </div>
     </nav>
   </Container>
@@ -32,7 +42,9 @@ import Nav from "./Nav.astro";
     align-items: center;
     border-bottom: 1px solid var(--theme-primary-light);
   }
-  nav {
+
+  /* Nav */
+  .navbar {
     width: 100%;
     display: flex;
     align-items: center;
@@ -52,9 +64,23 @@ import Nav from "./Nav.astro";
     justify-content: center;
   }
 
-  @media screen and (max-width: 480px) {
-    .header__logo {
+  /* DropDown */
+  .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    display: none;
+  }
+
+  @media screen and (max-width: 580px) {
+    .navbar {
       display: none;
+    }
+
+    .dropdown {
+      display: flex;
     }
   }
 </style>
