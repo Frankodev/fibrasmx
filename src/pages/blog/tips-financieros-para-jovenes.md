@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/Post.astro"
 title: Tips financieros para jóvenes
-image: https://t1.uc.ltmcdn.com/es/posts/2/1/6/como_ahorrar_dinero_en_casa_51612_600
+image: https://t1.uc.ltmcdn.com/es/posts/2/1/6/como_ahorrar_dinero_en_casa_51612_600.webp
 publishedAt: 2023-02-28
 category: ["Tips", "Finanzas Personales"]
 ---

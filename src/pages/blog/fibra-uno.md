@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/Post.astro"
 title: Fibra UNO
-image: https://notipress.mx/img/content/1991
+image: https://notipress.mx/img/content/1991.webp
 alt: "imagen de fibra uno"
 publishedAt: "2023-03-01"
 category: ["Fibras", "Fibra UNO", Notas]

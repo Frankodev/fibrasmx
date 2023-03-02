@@ -11,6 +11,8 @@ const seo = {
   image: frontmatter.image,
   tags: frontmatter.category,
 };
+
+console.log(frontmatter.image);
 ---
 
 <Layout seo={seo}>
@@ -43,14 +45,14 @@ const seo = {
         {
           frontmatter.image && (
             <picture>
-              <source srcset={`${frontmatter.image}.webp`} type="image/webp" />
+              <source srcset={`${frontmatter.image}`} type="image/webp" />
               <img
                 width="1200"
                 height="630"
                 class="post-content__img"
                 loading="eager"
                 src={`${frontmatter.image}`}
-                alt={`${frontmatter.alt}`}
+                alt={`${frontmatter.title}`}
               />
             </picture>
           )
