@@ -3,6 +3,8 @@ import Layout from "../layouts/Page.astro";
 import Container from "../components/Container.astro";
 import Mensaje from "../components/mensaje.astro";
 
+import Banner from "../components/Banner.astro";
+
 const seo = {
   title: "Fibras MX | De noob a Inversionista patrimonial",
   description:
@@ -11,11 +13,5 @@ const seo = {
 ---
 
 <Layout seo={seo}>
-  <Container>
-    <div class="home-hero-text__container">
-      <h1 class="title fade-in">Bienvenido a Fibras MX</h1>
-    </div>
-    <p>Todos somos la comunidad de Fibras MX</p>
-    <Mensaje />
-  </Container>
+  <Banner />
 </Layout>

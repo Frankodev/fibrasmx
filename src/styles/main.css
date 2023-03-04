@@ -13,7 +13,7 @@
   --theme-on-background: hsl(0, 0%, 5%);
 
   --theme-background-blur: hsla(0, 0%, 0%, 0.4);
-  --theme-on-background-blur: hsla(0, 0%, 100%, 0.2);
+  --theme-on-background-blur: hsla(0, 0%, 100%, 0.3);
 
   --theme-surface-1: hsl(0, 0%, 93%);
   --theme-on-surface-1: hsl(0, 0%, 10%);
@@ -63,7 +63,7 @@
     --theme-background: hsl(0, 0%, 8%);
 
     --theme-background-blur: hsla(0, 0%, 0%, 0.4);
-    --theme-on-background-blur: hsla(0, 0%, 100%, 0.2);
+    --theme-on-background-blur: hsla(0, 0%, 100%, 0.3);
 
     --theme-surface-1: hsl(0, 0%, 12%);
     --theme-on-surface-1: hsl(0, 0%, 96%);
@@ -83,7 +83,7 @@
   --theme-background: hsl(0, 0%, 98%);
   --theme-on-background: hsl(0, 0%, 5%);
 
-  --theme-background-blur: hsla(0, 0%, 100%, 0.2);
+  --theme-background-blur: hsla(0, 0%, 100%, 0.3);
   --theme-on-background-blur: hsla(0, 0%, 0%, 0.4);
 
   --theme-surface-1: hsl(0, 0%, 93%);
@@ -102,6 +102,9 @@
 
   --theme-on-background: hsl(0, 0%, 92%);
   --theme-background: hsl(0, 0%, 8%);
+
+  --theme-background-blur: hsla(0, 0%, 0%, 0.4);
+  --theme-on-background-blur: hsla(0, 0%, 100%, 0.3);
 
   --theme-surface-1: hsl(0, 0%, 12%);
   --theme-on-surface-1: hsl(0, 0%, 96%);
@@ -126,6 +129,7 @@ body {
 }
 
 .flow {
+  position: relative;
   min-height: 100vh;
 }
 
