@@ -157,11 +157,19 @@ a {
 
 /* Typography */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
 h1 {
   text-align: center;
   font-size: var(--step-4);
   font-family: var(--font-family-heading);
-  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.2rem;
 }
@@ -173,14 +181,12 @@ h1 {
 h2 {
   font-size: var(--step-3);
   font-family: var(--font-family-heading);
-  font-weight: 700;
   line-height: 1.2;
 }
 
 h3 {
   font-size: var(--step-2);
   font-family: var(--font-family-heading);
-  font-weight: 500;
   line-height: 1.2;
 }
 

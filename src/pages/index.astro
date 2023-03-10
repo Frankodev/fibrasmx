@@ -14,4 +14,167 @@ const seo = {
 
 <Layout seo={seo}>
   <Banner />
+  <section>
+    <div class="margin-top"></div>
+    <div class="section__reviews">
+      <h2 class="section__review-title">Conoce a las Fibras</h2>
+      <span class="divisor"></span>
+
+      <div class="container__reviews">
+        <div class="review">
+          <h5 class="review__title">Fibra Uno</h5>
+          <p class="review__text">
+            Fibra Uno cotiza con la clave de pizarra FUNO11, sigue el precio,
+            dentro de pronto tendremos una sección con todos los datos
+            relevantes de esta Fibra.
+          </p>
+          <a
+            class="review__link"
+            href="https://www.google.com/finance/quote/FUNO11:BMV"
+            target="_blank">Ver más</a
+          >
+        </div>
+
+        <div class="review">
+          <h5 class="review__title">Fibra Monterrey</h5>
+          <p class="review__text">
+            Fibra Monterrey cotiza con la clave de pizarra FMTY14, sigue el
+            precio, dentro de pronto tendremos una sección con todos los datos
+            relevantes de esta Fibra.
+          </p>
+          <a
+            class="review__link"
+            href="https://www.google.com/finance/quote/FMTY14:BMV"
+            target="_blank">Ver más</a
+          >
+        </div>
+
+        <div class="review">
+          <h5 class="review__title">Fibra Danhos</h5>
+          <p class="review__text">
+            Fibra Danhos cotiza con la clave de pizarra DANHOS13, sigue el
+            precio, dentro de pronto tendremos una sección con todos los datos
+            relevantes de esta Fibra.
+          </p>
+          <a
+            class="review__link"
+            href="https://www.google.com/finance/quote/DANHOS13:BMV"
+            target="_blank">Ver más</a
+          >
+        </div>
+
+        <div class="review">
+          <h5 class="review__title">Fibra Nova</h5>
+          <p class="review__text">
+            Fibra Nova cotiza con la clave de pizarra FNOVA17, sigue el precio,
+            dentro de pronto tendremos una sección con todos los datos
+            relevantes de esta Fibra.
+          </p>
+          <a
+            class="review__link"
+            href="https://www.google.com/finance/quote/FNOVA17:BMV"
+            target="_blank">Ver más</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section__posts">
+      <h2 class="section__post-title">Blog</h2>
+      <span class="divisor"></span>
+
+      <div class="container__posts">
+        <p>
+          Encuentra noticias y post dedicados exclusivamente a las Fibras.
+          <a class="link__blog" href="/blog">Ir al blog</a>
+        </p>
+        <Mensaje />
+      </div>
+    </div>
+  </section>
 </Layout>
+
+<style>
+  /* Auxiliares */
+  .margin-top {
+    height: 100vh;
+  }
+  .divisor {
+    display: block;
+    margin: 1rem auto;
+    width: 10rem;
+    height: 0.1rem;
+    background-color: var(--theme-primary);
+  }
+
+  /* Section reviews */
+  .section__reviews,
+  .section__posts {
+    width: 100%;
+    max-width: 120rem;
+    padding: 1rem 1rem;
+    margin: 0.5rem auto;
+  }
+  .section__review-title,
+  .section__post-title {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .container__reviews {
+    width: 100%;
+    max-width: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .review {
+    width: 100%;
+    max-width: 35rem;
+    padding: 1.2rem;
+    border-radius: 4px;
+  }
+  .review__title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 1rem 0 0 0;
+  }
+
+  .review__text {
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+  }
+
+  .review__link {
+    font-size: 1rem;
+    font-weight: lighter;
+    border: 2px solid #18a0fb;
+    color: #18a0fb;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.5rem;
+  }
+
+  /* Section posts */
+  .container__posts {
+    width: 100%;
+    max-width: 90rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .link__blog {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 780px) {
+    .review {
+      min-width: 100%;
+    }
+  }
+</style>
