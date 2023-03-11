@@ -2,13 +2,13 @@
 layout: "../../layouts/Post.astro"
 title: Tips y métodos para mejorar las finanzas personales
 image: "https://www.elfinanciero.com.mx/resizer/4GSzarAnHbybVYip_L_T8qtV_88=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/AJCT6Z3MQBGQJFYC4QX3P4WFUE.jpeg"
+author: Miguel Figueroa
 publishedAt: 2023-03-02
 category: ["Tips", "Finanzas Personales"]
 ---
 
 <!-- @format -->
 
-- **Escrito por:** Miguel Figueroa
 - **Ilustración de:** Daniel Ibarra
 - Miembros de la comunidad **Fibras MX**
 

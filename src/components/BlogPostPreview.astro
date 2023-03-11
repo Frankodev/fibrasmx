@@ -28,8 +28,11 @@ import { formatDate } from "../utils/helpers";
       </div>
 
       <h2>{post.frontmatter.title}</h2>
-      <p class="post-preview__date">
+      <span class="post-preview__date">
         {formatDate(post.frontmatter.publishedAt)}
+      </span>
+      <p class="post-preview__author">
+        Por {post.frontmatter.author || "Fibras MX"}
       </p>
     </div>
   </article>
@@ -86,6 +89,12 @@ import { formatDate } from "../utils/helpers";
     object-fit: cover;
     border-radius: 1rem;
     transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .post-preview__author {
+    font-size: var(--step--1);
+    margin: 0;
+    margin-bottom: 0;
   }
 
   .post-preview__date {

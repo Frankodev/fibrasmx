@@ -135,8 +135,19 @@ body {
 
 .flow > * + *,
 .flow p,
-.flow ul li p {
+.flow ul li p,
+.flow span {
   margin-bottom: var(--flow-space, 1em);
+}
+
+.flow span {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.flow em {
+  color: #888;
 }
 
 strong {

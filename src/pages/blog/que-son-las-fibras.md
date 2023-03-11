@@ -2,79 +2,111 @@
 layout: "../../layouts/Post.astro"
 title: ¿Qué son las fibras?
 image: https://i0.wp.com/eduardorosas.mx/wp-content/uploads/2020/07/Finance-Blog-1.png?resize=1024%2C576&ssl=1.webp
-publishedAt: 2023-02-26
-category: ["Fibras", "BMV"]
+author: Francisco Cisneros
+publishedAt: 2023-03-11
+category: ["Fibras", "Inversiones"]
 ---
 
 <!-- @format -->
 
-Bienvenido a un _nuevo post_ esta vez hablaremos sobre los fibras.
+Bienvenido a un _nuevo post_ esta vez hablaremos sobre las Fibras.
 
-## Las Fibras en México
+#### ¿Qué significa su nombre?
 
-En este blog hablo continuamente sobre como la mejor forma de invertir es diversificando, esto incluye nuestras inversiones en bienes raíces. Diversificar es la clave de una inversión exitosa, al diversificar nos aseguramos de que nuestro portafolio se protege de riesgos individuales al mismo tiempo que obtiene buenos rendimientos.
+Las FIBRAs _“Fideicomisos de Inversión en Bienes Raíces”_\* tienen como objetivo principal recaudar recursos en la BMV _“Bolsa Mexicana de Valores”_, para la adquisición o construcción de propiedades de diferentes sectores, tales como el Industrial, Educativo, Hotelero, Corporativo, Comercial, etc.
 
-Por ejemplo, no queremos que todo nuestro portafolio esté invertido en una sola empresa, o en un solo inmueble. ¿Qué pasa si esa empresa quiebra? ¿O si el inmueble es destruido por un terremoto? Ahí va toda nuestra inversión.
+Estos inmuebles que administran y rentan las Fibras dan como resultado una utilidad o rentas _“Dividendos”_ que las mismas Fibras distribuyen en la mayoría de los casos de forma trimestral a todos los tenedores de sus títulos CBFI´s _“Certificados Bursátiles Fiduciarios Inmobiliarios”_.
 
-### Un modelo diversificado
+<span>
+* Según la definición de la AMEFIBRA “Asociación Mexicana de FIBRAs Inmobiliarias”.
+</span>
 
-De esta idea clave de diversificar, David Swensen (jefe de inversiones de la Universidad de Yale) creó un modelo que define los porcentajes ideales que nos permiten diversificar. Tomar ese modelo y hacerle unas ligeras adaptaciones para que funcione mejor para cada uno de nosotros es una excelente y muy fácil forma de empezar a invertir.
+#### ¿Cuánto me paga de dividendos una Fibra?
 
-Y ese modelo, antes de modificaciones, define que debemos destinar 20% de nuestro portafolio a bienes raíces. Es más o menos lo que he apuntado a tener en mi portafolio. ¿Qué activos podemos considerar para ese 20% de nuestro portafolio?
+Todas las Fibras están obligadas por la ley a distribuir como mínimo el 95% del total de su resultado fiscal, por lo menos una vez al año.
 
-### FIBRAS (Fideicomisos de Infraestructura y Bienes Raíces)
+Ojo: es importante tener en cuenta que como cualquier otro negocio que este listado en la BMV, puede que este no tenga utilidades en el año, por lo que al no tener utilidad fiscal, este negocio no podrá distribuir dividendos.
 
-Las FIBRAS son Fideicomisos de Infraestructura y Bienes Raíces que engloban a varias propiedades dentro de un mismo activo. Puedes comprar títulos de FIBRAS de la misma forma en que comprarías títulos de alguna empresa, y de esta forma estar invirtiendo en todas las propiedades que son administradas por el fideicomiso.
+_Pero veámoslo con algunos ejemplos:_
 
-Desde plataformas como Homebroker podrías buscar la FIBRA en la que desees invertir y comprar títulos por —en algunos casos— incluso menos de $12 pesos mexicanos. Este, por cierto, es el costo de cada título, cada plataforma tendrá el monto mínimo con el que puedes crear tu cuenta (en el caso de GBM este monto mínimo es de $100 pesos).
+Fibra UNO - _FUNO11_
 
-Como si fueran acciones de una empresa, podrás ver al valor de cada título de una FIBRA crecer con el tiempo (o decrecer, por supuesto). Pero además, como se trata de bienes raíces, recibirás rentas. En este momento Fibra Uno (FUNO) —la FIBRA más grande en México— paga rentas de aproximadamente el 10% del valor de cada titulo. Como actualmente cada título de FUNO vale aproximadamente $18, esto quiere decir que si compras 100 títulos (inviertes $1,800) recibirías $180 al año como dividendos (estos son cálculos actuales, y el hecho de que cada título ha perdido valor en los últimos meses debido a la recesión ha impactado en ese porcentaje de “rentas”, pero es mucho mas de los dividendos que las acciones suelen pagar).
+Fibra Uno salió a cotizar a Bolsa en el año 2011 y desde entonces ha hecho pagos de dividendos a todos los tenedores de sus CBFI´s _“Certificados Bursátiles Fiduciarios Inmobiliarios”_, títulos o acciones como gustes llamarles.
 
-### Beneficios de una FIBRA
+![imagen de las distribuciones de Fibra Uno](../../images/dist-funo.png)
+<span>
+Fuente: Imagen tomada del reporte de resultados del 4.to Trimestre del 2022.
+</span>
 
-Esencialmente el comprar títulos de una FIRBA de da acceso a los beneficios de invertir en bienes raíces: invertir en inmuebles que pudieran generar plusvalía con el tiempo (cambio en el precio de cada título) y que aparte pagan rentas (los dividendos que son repartidos a los inversionistas).
+La suma total de las distribuciones que hizo por el **resultado fiscal** de todo el año del 2021 fue de $1.7123 (Un peso con 71/100 M.N.)
 
-Lo mejor es que invertir en una sola FIBRA nos ayuda inmediatamente a diversificar bastante bien nuestra inversión (que, como mencionaba, es la clave de una buena estrategia). Por ejemplo, comprar un título de FIBRA UNO nos permite invertir en más de 600 propiedades. Esta es una excelente diversificación, con solo $18 (aprox.) tenemos una inversión en Bienes Raíces bien diversificada.
+Es decir, que si tú hubieras mantenido tus títulos durante sus fechas de pago de cada trimestre, por cada título estarías ganando un total de $1.71 un peso con setenta y un centavos.
 
-Pero no debemos parar ahí. Sigue siendo una sola administradora (FIBRA UNO). Lo ideal sería invertir en varias FIBRAS, para diversificar aún más. Pero llevar el control de cada FIBRA en la que estamos invirtiendo puede rápidamente ser más complejo de lo necesario. Ahí entra el segundo instrumento.
+Por ejemplo, si hubieras tenido 1,000 títulos de Fibra Uno, hubieras recibido por el total de tus títulos la cantidad de $1,710 pesos en total de dividendos, durante el año del 2021.
 
-### ETFs (Exchange-Traded Funds)
+Ahora, algo importante, a los pagos de los dividendos que hacen las Fibras, la Casa de Bolsa o tu Bróker retiene un 30% cuando el concepto del pago del dividendo es por **“Resultado Fiscal”**.
 
-Un ETF, o Exchange-Traded Fund, es —literalmente— un fondo que podemos comprar y vender como una acción en el mercado de valores. El objetivo de un ETF suele ser el representar a una parte del mercado y facilitar la inversión en él. A través de ETFs podemos invertir de una forma rápida y muy sencilla en grandes partes del mercado.
+Pero, si el concepto del pago que está realizando la Fibra es por **“Reembolso de Capital”**, la Casa de Bolsa no hace ninguna retención y el pago del dividendo te llegará integro a la cuenta.
 
-Por ejemplo, comprar el ETF VOO nos permite inmediatamente invertir en 500 de las empresas más grandes de Estados Unidos. Invertir en el ETF VWO nos permite invertir inmediatamente en miles de acciones de decenas de países clasificados como economías emergentes. Así también, existen ETFs que aglomeran a varias FIBRAS que nos permiten invertir en grandes cantidades de inmuebles a través de la compra de un sólo título de ese ETF.
+Esta es una de las principales ventajas que tienen las Fibras, cuando nos hacen pagos de rentas - _"dividendos”_ por el concepto de **Reembolso de Capital**, las distribuciones están libres de impuestos, pero tocaremos este tema con más detalles en otro post.
 
-Ojo, cuando buscas ETFs de FIBRAS (o REITS en inglés —Real Estate Investment Trusts), es común encontrar artículos sobre los que mejor se han comportado en el ultimo trimestre, o en el último año. Pero información sobre los rendimientos anteriores no es en la que te deberías fijar. Un ETF que se comportó excelente el año pasado puede ser el peor de este año.
+Pero vayamos a ver otro ejemplo de los pagos que nos hacen con otra Fibra.
 
-### Comisiones y diversificación
+Fibra Hotel - _FIHO12_
 
-Al contrario, en lo que sí te debes de fijar es en las comisiones que estos fondos cobran por ser administrados, y es entonces aquí donde los ETFs de Vanguard tienen una buena ventaja, ya que Vanguard se enfoca mucho en disminuir costos y suele tener los ETFs más baratos del mercado. Para ETFs de bienes raíces, puedes entonces voltear a ver al ETF VNQ.
+Por su parte, Fibra Hotel salió a Bolsa en el año 2012 y está totalmente concentrada en la administración de Hoteles de las marcas más importantes a nivel mundial, pero hagamos un paréntesis en el que estoy seguro de que podemos aprender algunas cosas interesantes para considerar al momento de querer invertir en las Fibras.
 
-Comprar títulos de un ETF como VNQ te da una cantidad de diversificación increíble, porque no solo estás invirtiendo en una buena cantidad de FIBRAS (REITS), sino que en gran cantidad de inmuebles, además de que los sectores en los que inviertes son variados. Así se distribuiría hoy tu inversión al comprar títulos de VNQ:
+Lo primero que podemos aprender sería que, Fibra Uno y Fibra Hotel, más allá de parecerse en algunas cosas por ser las dos empresas, una Fibra, están lejos de ser iguales, me explico.
 
-- El 14% en inmuebles residenciales
-- 10% en inmuebles industriales
-- 8% en inmuebles dedicados a la salud
-- El 8% en oficinas
-- 8% en tiendas
-- El 52% restante repartido en varios otros sectores, todos con menos de 8%
+- Fibra Uno está enfocada en su mayor parte a los sectores Industrial, Comercial y Oficinas.
 
-![image](https://images.squarespace-cdn.com/content/v1/56c20f7cd51cd440f4c1f656/1553103232254-2HKE39GWPJF6H6W6H4MO/ahorro-mx.jpg?format=1500w)
+- Por su parte, Fibra Hotel está 100% dedicada a desarrollar, adquirir, poseer y operar hoteles en todo México, algunas marcas con las que opera Fibra Hotel son _“Fiesta Inn, One Hoteles, Camino Real, Real Inn, Sheraton, Marriot”_ entre otras marcas de gran prestigio.
 
-Todo esto quiere decir que invertir en un título de VNQ (que actualmente cuesta alrededor de $1800 —lo mismo que en este momento cuesta comprar 100 títulos de FUNO) puedes invertir de una forma aún mas diversificada
+Lo segundo que podemos aprender es que, como lo mencione antes, las Fibras tienen la obligación por ley de repartir por lo menos el 95% del **resultado fiscal**, ojo, **resultado fiscal**.
 
-O mejor aun, poco a poco ir creciendo tu portafolio ¡y quizás invertir en ambos!
+Como ya sabrás Fibra Hotel no la paso para nada bien, en el año 2020, en el mero pico de la pandemia sanitaria del COVID-19 por órdenes de algunas dependencias de gobierno y sanitarias, muchos hoteles tuvieron que cerrar sus puertas y muchos otros tuvieron que tener una ocupación controlada, en varios casos esta ocupación debía de ser menor del 30% de su capacidad total, o menos.
 
-### Fintechs
+![imagen del reporte trimestral 1T20 de FIHO](../../images/hotel-covid.png)
+<span>
+Fuente: Imagen tomada del reporte de resultados del 1.er Trimestre del 2020.
+</span>
 
-Otra opción cada ves más popular, cuando se trata de invertir en bienes raíces, es hacerlo a través de empresas de tecnología financiera. Algunas empresas como 100 ladrillos o briq nos dan la oportunidad de invertir en bienes raíces de una forma más directa con montos mínimos de $4500 o $1000 respectivamente (claro, esto es más elevado que los $18 de algunas FIBRAS o incluso que los $1800 de VNQ, pero aún mucho menos que lo necesario para comprar un inmueble por nosotros mismos).
+Es decir que si un hotel contaba con 100 habitaciones, pues en la pandemia este hotel solo podía tener 30 habitaciones ocupadas con huéspedes.
 
-La forma en que funcionan estas empresas no es exactamente la misma, pero ambas permiten invertir en inmuebles individuales con montos pequeños gracias a que funcionan colectivamente. Es decir, varios inversionistas pueden invertir en un solo inmueble y cada uno es co-inversionista en esa propiedad. 100 ladrillos permite ser co-propietario (tu inversión se utiliza para fondear una construcción o proyecto y nos vuelve dueños de una parte de este —lo que significa que accederemos a la plusvalía y la parte de la renta que nos corresponda) mientras que briq permite financiar la construcción de un inmueble convirtiéndonos en acreedores (no somos dueños del inmueble, pero recibimos nuestro dinero de regreso más un interés, y nuestra inversión está respaldada por el inmueble).
+Ya te imaginarás el golpe tan duro que se llevó Fibra Hotel en cuanto a la **generación de utilidad para el negocio**, aunque déjame decirte que Fibra Uno también tuvo un impacto fuerte por su segmentación en lo Comercial y Oficinas _“Plazas Comerciales, Centros Comerciales y Oficinas”_.
 
-Estas son excelentes opciones una vez tengas inversiones en FIBRAS y ETFS, porque considera que invertir a través de estas empresas de tecnología financiera requiere inversiones más altas y no ofrecen gran diversificación. En 100 ladrillos necesitarás mas de $4000, y en briq mínimo $1000, para invertir en un solo proyecto. Si solo tienes $4, $6 u $8 mil que invertir en bienes raíces, definitivamente primero hazlo en FIBRAS o ETFs, ya después, cuando tu inversion en una fintech no sea tu única inversion en inmuebles, ¡son muy buena opción!
+Pero continuemos con Fibra Hotel, entonces, que paso con Fibra Hotel y el pago del 95% por lo menos del resultado fiscal de la operación de la Fibra, pues creo que la pregunta se contesta sola, y si efectivamente, Fibra Hotel no pago dividendos en el año 2020, 2021 y 2022.
 
-### No en una casa
+![imagen del reporte trimestral 4T22 de FIHO](../../images/hotel-grafica.png)
+<span>
+Fuente: Imagen tomada del reporte de resultados del 4.to Trimestre del 2022.
+</span>
 
-Así es como puedes tu invertir en bienes raíces en Mexico (a través de FIBRAS, ETFS e incluso algunas Fintechs). Espero que este artículo te de una idea del proceso que puedes seguir. Nota que en las opciones no menciono una casa, porque en ese caso tú tendrías que administrar todo (cobrar rentas, dar mantenimiento, pagar impuestos, y esto no es la idea) además —y más importante— que podría significar una inversión tremenda.
+Pero… El 4T22 ha sido más que bueno con **“cifras operativas récord”**, el año 2022 ha concluido de forma positiva para la Fibra Hotelera, y va a ser positivo para sus tenedores _“dueños de los CBFI´s - Inversionistas”_.
 
-Considera el 20% que define David Swensen en su modelo. Si tu casa cuesta $1 millón, tu portafolio debería de ser de al menos $5M para que solo 20% sea dedicado a bienes raíces, ¡y ese 20% estaría en una sola propiedad, nada diversificado! Quizás si fuera solo el 5% de todo tu portafolio sería una buena opción…pero en ese caso tendrías que tener $20M invertidos. Si aún no es tu caso, una casa no es la mejor inversion en bienes raíces que puedes hacer en este momento.
+En su reporte del 4.to Trimestre del 2022 hacen mención que pronto retomaran una nueva política de distribución, o sea, que la administración de la Fibra pretende reanudar los pagos de dividendos, ya que la situación de sus ingresos han mejorado y pintan con buenos números este año 2023.
+
+![imagen del reporte trimestral 4T22 de FIHO](../../images/hotel-pagos.png)
+<span>
+Fuente: Imagen tomada del reporte de resultados del 4.to Trimestre del 2022.
+</span>
+
+Como podrás observar, las Fibras pueden pasar por tiempos difíciles y mientras los ingresos de la Fibra se vean afectados, la Fibra no podrá hacer distribuciones de dividendos, recuerda que el dividendo viene enteramente del **“resultado fiscal”** o ganancias del negocio.
+
+Lo que podemos aprender de todo esto, es que al momento de querer invertir en una Fibra, algo importante que debemos de tomar en cuenta es saber;
+
+**Primero**
+
+_¿Qué tipo de negocio es, en el que pretendo invertir mi dinero?_
+
+**Segundo**
+
+_¿Conozco realmente el negocio, sé a qué se dedica?_
+
+**Tercero**
+
+_¿Entiendo el negocio, sé de donde obtiene sus ingresos y como los obtiene?_
+
+Este tipo de preguntas nos sirven incluso para invertir en otros instrumentos financieros que no sean precisamente Fibras.
+
+En conclusión, esto no quiere decir que Fibra UNO sea mejor que Fibra Hotel, esto nos demuestra que las Fibras son un excelente instrumento de diversificación con el cual podemos obtener rentas - _"dividendos"_ de forma constante, ya que su naturaleza es esa, ser empresas pagadoras de dividendos a sus accionistas o inversores.
