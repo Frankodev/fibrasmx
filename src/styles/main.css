@@ -33,6 +33,7 @@
   --step-3: clamp(1.94rem, calc(1.56rem + 1.92vw), 2.93rem);
   --step-4: clamp(2.33rem, calc(1.81rem + 2.59vw), 3.66rem);
   --step-5: clamp(2.8rem, calc(2.11rem + 3.47vw), 4.58rem);
+  --step-6: clamp(3.4rem, calc(2.8rem + 4.11vw), 5.13rem);
 
   --font-family-heading: "", sans-serif;
   --font-family-body: "Open Sans", sans-serif;

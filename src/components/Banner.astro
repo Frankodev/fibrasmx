@@ -1,239 +1,43 @@
 ---
 ---
 
-<section class="container__banner">
-  <div class="banner__container-1">
-    <img
-      class="banner__img"
-      src="./slider-hero/fibrahotel.jpg"
-      alt="ribra hotel"
-    />
-    <div class="banner__text text-1">
-      <h1 class="banner__title">Noticias</h1>
-      <span></span>
-      <p>Mantente al día con las noticias más relevantes sobre las fibras.</p>
-    </div>
-  </div>
-  <div class="banner__container-2">
-    <img
-      class="banner__img"
-      src="./slider-hero/fibramty.jpg"
-      alt="fibra monterrey"
-    />
-    <div class="banner__text text-2">
-      <h1 class="banner__title">Distribuciones</h1>
-      <span></span>
-      <p>
-        Quieres saber cuando y cuanto pagan las fibras, ingresa a la comunidad
-        para estar al día.
-      </p>
-    </div>
-  </div>
-  <div class="banner__container-3">
-    <img class="banner__img" src="./slider-hero/midtow.webp" alt="fibra uno" />
-    <div class="banner__text text-3">
-      <h1 class="banner__title">Reseñas</h1>
-      <span></span>
-      <p>
-        Te compartimos toda la información de las fibras, para que tomes la
-        mejor decisión a la hora de invertir.
-      </p>
-    </div>
-  </div>
-  <div class="banner__container-4">
-    <img class="banner__img" src="./slider-hero/mitikah.webp" alt="fibra uno" />
-    <div class="banner__text text-4">
-      <h1 class="banner__title">Blog</h1>
-      <span></span>
-      <p>
-        Posts sobre noticias, las fibras, distribuciones de rentas y algunos
-        tips para mejorar tus finanzas personales.
-      </p>
-    </div>
-  </div>
-</section>
+<div class="hero">
+  <img class="hero__image" src="./slider-hero/midtow.png" alt="edificio" />
+  <h1 class="hero__title">Fibras MX</h1>
+</div>
 
 <style>
-  .container__banner {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  .hero {
+    position: relative;
   }
 
-  .banner__container-1,
-  .banner__container-2,
-  .banner__container-3,
-  .banner__container-4 {
-    position: absolute;
-    left: 0;
-    top: 0;
+  .hero__image {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .banner__img {
+  .hero__title {
+    width: max-content;
     position: absolute;
-    left: 50%;
     top: 50%;
-    width: 120%;
-    max-width: 120%;
-    height: 100vh;
+    left: 50%;
     transform: translate(-50%, -50%);
-    object-fit: cover;
-
-    animation: zoom-out 3s linear infinite;
-  }
-
-  @keyframes zoom-out {
-    0% {
-      width: 120%;
-    }
-    100% {
-      width: 100%;
-    }
-  }
-
-  .banner__text {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    width: 90%;
-    max-width: 50rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: var(--step-6);
     color: var(--theme-primary);
-
-    transform: translateY(6rem);
-    animation: textup-1 12s linear infinite;
-
-    padding: 1.2rem;
     background-color: var(--theme-background-blur);
-    backdrop-filter: blur(25px);
-    border-radius: 8px;
+    -webkit-backdrop-filter: blur(45px);
+    backdrop-filter: blur(45px);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
   }
 
-  .text-1 {
-    animation-delay: 0s;
-  }
-  .text-2 {
-    animation-delay: 3s;
-  }
-  .text-3 {
-    animation-delay: 6s;
-  }
-  .text-4 {
-    animation-delay: 9s;
-  }
-
-  .banner__title {
-    text-align: start;
-    margin-bottom: 1rem;
-  }
-
-  .banner__text p {
-    margin-top: 3rem;
-  }
-
-  .banner__text span {
-    position: absolute;
-    left: 1rem;
-    width: 10rem;
-    height: 0.1rem;
-    background-color: var(--theme-primary);
-  }
-
-  .banner__container-1 {
-    animation: slide1 12s linear infinite;
-  }
-  .banner__container-2 {
-    animation: slide2 12s linear infinite;
-  }
-  .banner__container-3 {
-    animation: slide3 12s linear infinite;
-  }
-  .banner__container-4 {
-    animation: slide4 12s linear infinite;
-  }
-
-  @keyframes slide1 {
-    0% {
-      visibility: visible;
-    }
-    25% {
-      visibility: hidden;
-    }
-    50% {
-      visibility: hidden;
-    }
-    75% {
-      visibility: hidden;
-    }
-    100% {
-      visibility: visible;
-    }
-  }
-
-  @keyframes slide2 {
-    0% {
-      visibility: hidden;
-    }
-    25% {
-      visibility: hidden;
-    }
-    50% {
-      visibility: visible;
-    }
-    75% {
-      visibility: hidden;
-    }
-    100% {
-      visibility: hidden;
-    }
-  }
-
-  @keyframes slide3 {
-    0% {
-      visibility: hidden;
-    }
-    25% {
-      visibility: hidden;
-    }
-    50% {
-      visibility: hidden;
-    }
-    75% {
-      visibility: visible;
-    }
-    100% {
-      visibility: hidden;
-    }
-  }
-
-  @keyframes slide4 {
-    0% {
-      visibility: hidden;
-    }
-    25% {
-      visibility: hidden;
-    }
-    50% {
-      visibility: hidden;
-    }
-    75% {
-      visibility: hidden;
-    }
-    100% {
-      visibility: visible;
-    }
-  }
-
-  @keyframes textup-1 {
-    10% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(0);
+  @media screen and (max-width: 580px) {
+    .hero__title {
+      font-size: var(--step-5);
     }
   }
 </style>

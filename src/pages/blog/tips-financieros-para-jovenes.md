@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/Post.astro"
 title: Tips financieros para jóvenes
-image: https://t1.uc.ltmcdn.com/es/posts/2/1/6/como_ahorrar_dinero_en_casa_51612_600.webp
+image: ../../images/como-ahorrar.png
 publishedAt: 2023-02-28
 category: ["Tips", "Finanzas Personales"]
 ---
@@ -34,7 +34,7 @@ Aunque al principio cueste, tomar la decisión de destinar una cantidad, aunque 
 
 Cuando hagas tu presupuesto, dedica también unos minutos a revisar esos gastos que ya tienes asumidos pero que podrían reducirse ayudándote a ahorrar. Por ejemplo, ¿tienes tarjetas bancarias que no utilizas demasiado? Prescindir de ellas podría ahorrarte unas buenas comisiones. De igual modo, los seguros suscritos (de coche, de vivienda, de vida) o la tarifa de telefonía que tienes contratada, quizá admitirían alguna rebaja si la pides o si te cambias a otras compañías.
 
-![image](https://t1.uc.ltmcdn.com/es/posts/2/1/6/mejora_tu_lista_de_compra_51612_3_600.webp)
+![mejora tu lista de compras](../../images/mejora-tu-lista.png)
 
 ### Mejora tu lista de compra
 
@@ -54,7 +54,7 @@ Cuando piensas en cómo ahorrar más dinero, seguramente también pienses en las
 
 Te recomendamos aprender Cómo calcular un descuento para saber cuánto te ahorras cada vez que usas estas tarjetas y con otras acciones.
 
-![image](https://t2.uc.ltmcdn.com/es/posts/2/1/6/compara_ofertas_y_promociones_51612_6_600.webp)
+![image](../../images/compara.png)
 
 ### Hazlo tú en casa
 

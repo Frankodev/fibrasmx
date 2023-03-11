@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/Post.astro"
 title: Fibra UNO
-image: https://notipress.mx/img/content/1991.webp
+image: ../../images/funo.png
 alt: "imagen de fibra uno"
 publishedAt: "2023-03-01"
 category: ["Fibras", "Fibra UNO", Notas]
@@ -17,7 +17,7 @@ Es la primera y más grande FIBRA (REIT) de México y Latinoamérica. Se enfocan
 
 La filosofía de negocio de FUNO tiene sus cimientos en un extenso y profundo conocimiento, así como en un proceso de decisión enfocado 100% en bienes raíces. De aquí se desprenden tres pilares básicos que sostienen el modelo de negocio enfocado en la creación de valor sostenible a través del tiempo:
 
-![image](https://funo.mx/site_media/uploads/propiedad/mixtos/com01.galleria-1.webp)
+![image](../../images/funo-torre.png)
 
 ### Un Poco de Historia
 
