@@ -2,15 +2,13 @@
 layout: "../../layouts/Post.astro"
 title: Tips y métodos para mejorar las finanzas personales
 image: "https://www.elfinanciero.com.mx/resizer/4GSzarAnHbybVYip_L_T8qtV_88=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/AJCT6Z3MQBGQJFYC4QX3P4WFUE.jpeg"
-author: Miguel Figueroa
+alt: "imagen referente a las Fibras"
+author: Equipo Fibras MX
 publishedAt: 2023-03-02
 category: ["Tips", "Finanzas Personales"]
 ---
 
 <!-- @format -->
-
-- **Ilustración de:** Daniel Ibarra
-- Miembros de la comunidad **Fibras MX**
 
 Bienvenido a un _nuevo post_, en esta ocasión hablaremos sobre algunos tips que te ayudarán a mejorar tus finanzas personales.
 
@@ -56,7 +54,10 @@ Algunos consejos que te damos para que ahorrar te sea mucho más fácil son:
 
   - No gastes más de lo necesario.
 
-![image](../../images/Ilustracion-Daniel-Ibarra.jpeg)
+![ilustracion de tips financieros](../../images/Ilustracion-Daniel-Ibarra.jpeg)
+<span>
+Ilustración de: Daniel Ibarra - miembro de la comunidad Fibras MX
+</span>
 
 ### Fondo de Emergencia
 

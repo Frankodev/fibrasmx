@@ -1,10 +1,11 @@
 ---
 layout: "../../layouts/Post.astro"
 title: Fibra UNO
-image: ../../images/funo.png
+image: https://firebasestorage.googleapis.com/v0/b/storage-fibras-mx.appspot.com/o/post%2Ffuno.png?alt=media&token=870f7e40-1629-4173-8363-293f8da8307a
 alt: "imagen de fibra uno"
+author: Equipo Fibras MX
 publishedAt: "2023-03-01"
-category: ["Fibras", "Fibra UNO", Notas]
+category: ["Fibras", "Fibra UNO"]
 ---
 
 <!-- @format -->

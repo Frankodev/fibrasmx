@@ -41,12 +41,12 @@ const seo = {
           Publicado:
           <time>{formatDate(frontmatter.publishedAt)}</time>
         </p>
-        <p>Por {frontmatter.author}</p>
+        <p>Por {frontmatter.author || "Equipo Fibras MX"}</p>
         <!-- Hopefully we'll be able to use Astro's image integration for this soon -->
         {
           frontmatter.image && (
             <picture>
-              <source srcset={`${frontmatter.image}`} type="image/webp" />
+              <source srcset={`${frontmatter.image}`} type="image/png" />
               <img
                 width="1200"
                 height="630"

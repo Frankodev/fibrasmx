@@ -2,7 +2,8 @@
 layout: "../../layouts/Post.astro"
 title: ¿Qué son las fibras?
 image: https://i0.wp.com/eduardorosas.mx/wp-content/uploads/2020/07/Finance-Blog-1.png?resize=1024%2C576&ssl=1.webp
-author: Francisco Cisneros
+alt: "imagen referente a las Fibras"
+author: Equipo Fibras MX
 publishedAt: 2023-03-11
 category: ["Fibras", "Inversiones"]
 ---

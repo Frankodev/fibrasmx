@@ -1,7 +1,9 @@
 ---
 layout: "../../layouts/Post.astro"
 title: Tips financieros para jóvenes
-image: ../../images/como-ahorrar.png
+image: https://firebasestorage.googleapis.com/v0/b/storage-fibras-mx.appspot.com/o/post%2Fcomo-ahorrar.png?alt=media&token=509ab775-d98e-420a-ae1d-92dc9620f6fb
+alt: "imagen referente a las Fibras"
+author: Equipo Fibras MX
 publishedAt: 2023-02-28
 category: ["Tips", "Finanzas Personales"]
 ---
