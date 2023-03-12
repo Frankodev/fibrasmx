@@ -250,3 +250,13 @@ pre copy-code-button {
     font-size: 1rem;
   }
 }
+
+/* Auxiliares */
+
+.divisor {
+  display: block;
+  margin: 1rem auto;
+  width: 10rem;
+  height: 0.1rem;
+  background-color: var(--theme-primary);
+}

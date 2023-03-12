@@ -8,7 +8,7 @@ import { formatDate } from "../utils/helpers";
   <article class="post-preview__article">
     <!-- Hopefully we'll be able to use Astro's image integration for this soon -->
     <picture>
-      <source srcset={`${post.frontmatter.image}`} type="image/webp" />
+      <source srcset={`${post.frontmatter.image}`} type="image/png" />
       <img
         class="post-preview__img"
         src={`${post.frontmatter.image}`}
