@@ -4,8 +4,10 @@ import Container from "../components/Container.astro";
 import Mensaje from "../components/mensaje.astro";
 
 import Banner from "../components/Banner.astro";
+import IframePriceTicker from "../components/IframePriceTicker.astro";
 import PreviewReviews from "../components/PreviewReviews.astro";
 import PreviewPosts from "../components/PreviewPosts.astro";
+import Community from "../components/Community.astro";
 
 const seo = {
   title: "Fibras MX | De noob a Inversionista patrimonial",
@@ -16,9 +18,16 @@ const seo = {
 
 <Layout seo={seo}>
   <Banner />
+
+  <!-- Iframe Price Ticker Amefibra -->
+  <IframePriceTicker />
+
   <!-- Preview Reviews -->
   <PreviewReviews />
 
   <!-- Preview Posts -->
   <PreviewPosts />
+
+  <!-- Community -->
+  <Community />
 </Layout>

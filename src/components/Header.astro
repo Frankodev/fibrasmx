@@ -25,7 +25,12 @@ import ToggleBtn from "./ToggleBtn.astro";
       </div>
     </nav>
     <nav class="dropdown">
+      <a class="dropdown__logo" href="/" title="Navigate Home">
+        <Logo />
+      </a>
+
       <DropDown />
+
       <div class="theme-toggle__container">
         <!-- This component uses client script -->
         <theme-toggle-button></theme-toggle-button>
@@ -72,6 +77,10 @@ import ToggleBtn from "./ToggleBtn.astro";
     justify-content: flex-end;
     gap: 1rem;
     display: none;
+  }
+
+  .dropdown__logo {
+    margin-right: auto;
   }
 
   @media screen and (max-width: 580px) {

@@ -28,7 +28,7 @@ const posts = postsSort.slice(0, 2);
 </section>
 
 <style>
-  /* Section posts */
+  /* Section Posts */
 
   .section__posts {
     width: 100%;
@@ -43,18 +43,30 @@ const posts = postsSort.slice(0, 2);
   }
 
   .container__posts {
+    width: 100%;
+    max-width: 90rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 90rem;
     padding: 1rem;
     margin: 0 auto;
   }
 
+  center p {
+    padding: 0 0.6rem 0 0.6rem;
+  }
+
   .link__blog {
+    display: inline-flex;
     color: #18a0fb;
-    text-decoration: underline;
+    text-decoration: underline transparent;
+
+    transition: all 0.2s ease;
+  }
+
+  .link__blog:hover,
+  .link__blog:active {
+    text-decoration: underline #18a0fb;
   }
 
   @media screen and (max-width: 780px) {

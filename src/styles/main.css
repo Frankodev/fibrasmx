@@ -158,7 +158,8 @@ strong {
 
 a {
   color: inherit;
-  text-decoration: underline transparent;
+  /* text-decoration: underline transparent; */
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
 
