@@ -3,6 +3,8 @@ import Layout from "../layouts/Page.astro";
 import Container from "../components/Container.astro";
 import Mensaje from "../components/mensaje.astro";
 
+import Community from '../components/Community.astro'
+
 const seo = {
   title: "Fibras MX | La Comunidad",
   description:
@@ -13,9 +15,11 @@ const seo = {
 <Layout seo={seo}>
   <Container>
     <div class="home-hero-text__container">
-      <h1 class="title fade-in">La Comunidad Fibras MX</h1>
+      <h1 class="title fade-in">Fibras MX</h1>
     </div>
-    <p>Bienvenido a la comunidad más grande amantes de las fibras</p>
-    <Mensaje />
+    <center>
+      <p>Bienvenido a la comunidad más grande amantes de las fibras</p>
+    </center>
+    <Community />
   </Container>
 </Layout>
