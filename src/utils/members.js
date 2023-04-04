@@ -1,5 +1,7 @@
 /** @format */
 
+
+
 export const members = [
   {
     src: "https://scontent.fpbc2-2.fna.fbcdn.net/v/t39.30808-1/315919285_192780096592537_1895296045907016564_n.jpg?stp=c0.0.200.200a_dst-jpg_p200x200&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeE2vHvO6pL8FhXavNjWDL7J28-9PgCeHb3bz70-AJ4dvQDgd4qtTGXa2IbGVP-dCVBliek-AmZ2Ps-iJrfdGaT3&_nc_ohc=LkyeHmgRWiAAX8BCD7b&_nc_ht=scontent.fpbc2-2.fna&oh=00_AfAzLPDUpjb_SBjMGPol88oG9dfXi4hCShUvfmhZnkTpjg&oe=6413BF9C",
@@ -46,7 +48,7 @@ export const members = [
     alt: "Luis Ortiz de Montellano",
   },
   {
-    src: "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/265061237_661398328564132_8568400684719969638_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGqfydtvQGDDmZqLeJ5_nbwxSDSn1J_Xy3FINKfUn9fLVBx_5cNHEsNLPvjgfMQZYBq_q0Y_vbPnL53HZ4xAe6k&_nc_ohc=AGNA1R_S-psAX_DoRIx&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&oh=00_AfAf6hcurepx2MwhQqURq-6eJ57BPvf3zgmyv2VGQZi2bg&oe=6411FEFC",
+    src: "https://scontent.faca1-1.fna.fbcdn.net/v/t39.30808-6/265061237_661398328564132_8568400684719969638_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGqfydtvQGDDmZqLeJ5_nbwxSDSn1J_Xy3FINKfUn9fLVBx_5cNHEsNLPvjgfMQZYBq_q0Y_vbPnL53HZ4xAe6k&_nc_ohc=oeYKMY_J8GQAX_0gdzR&_nc_ht=scontent.faca1-1.fna&oh=00_AfD2PpXcK9FLKH7e-EnS0ftzN0H3qBUcxQpE8ToNrrJADQ&oe=6431A2FC",
     alt: "Francisco Cisneros",
   },
 ];

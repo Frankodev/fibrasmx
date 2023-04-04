@@ -2,13 +2,14 @@
 import CommunityMember from "./CommunityMember.astro";
 
 import { members } from "../utils/members";
+import userPreviewImage from './CommunityImagePreview.astro'
 ---
 
 <div class="container__community-images">
   <div class="images">
     {
       members.map((member) => (
-        <CommunityMember src={member.src} alt={member.alt} />
+        <CommunityMember src={member.src || userPreviewImage} alt={member.alt} />
       ))
     }
   </div>
